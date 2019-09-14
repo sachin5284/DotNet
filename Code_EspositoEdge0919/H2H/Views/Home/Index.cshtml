@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">H2H <b>gRPC</b> Service</h1>
+
+    <h2>Unary method</h2>
+    <form method="post" asp-action="details" asp-controller="H2H">
+        <div class="input-group mb-3">
+            <input type="text" name="p1" class="form-control" placeholder="Player 1" value="f324">
+            <div class="input-group-append">
+                <span class="input-group-text">vs</span>
+            </div>
+            <input type="text" name="p2" class="form-control" placeholder="Player 2" value="w367">
+        </div>
+        <button name="sender" type="submit" class="btn btn-danger btn-lg" value="details">FIND</button>
+        <button name="sender" type="submit" class="btn btn-warning btn-lg" value="detailsdemo">FIND (fake)</button>
+    </form>
+    <hr />
+    <h2>Server-streaming method</h2>
+    <button id="btnBatch" disabled type="button" class="btn btn-danger btn-lg">BATCH</button>
+    <div style="font-size:smaller" id="connId"></div>
+    <div id="batch-results">
+        <div id="batch-results-msg"></div>
+    </div>
+</div>
+
+
+<script>
+    // SignalR bootstrap
+    var h2hConnectionId = "";
+    var h2hConnection = new signalR.HubConnection("/h2hhub");
+    h2hConnection
+        .start()
+        .then(() => {
+            h2hConnectionId = h2hConnection.connection.connectionId;
+            $("#btnBatch").removeAttr("disabled");
+            $("#connId").html(h2hConnectionId);
+        })
+        .catch(() => {
+            $("#connId").html("Error while establishing connection");
+        });
+</script>
+
+<script>
+    $("#btnBatch").click(function () {
+        $("#batch-results-msg").html("Waiting for results ...");
+        $.post("/h2h/multi", { connId: h2hConnectionId });
+    });
+</script>
+
+<script>
+    h2hConnection.on("responseReceived", (p1, w1, p2, w2) => {
+        $("#batch-results-msg").html("");
+        var buffer = "<p>" + p1 + " vs " + p2 + ": " + w1 + "-" + w2 + "</p>";
+        $("#batch-results").append(buffer);
+    });
+</script>
+

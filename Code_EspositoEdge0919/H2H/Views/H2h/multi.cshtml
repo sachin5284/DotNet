@@ -1,0 +1,12 @@
+﻿@model H2H.Models.H2HMultiViewModel
+
+<h2>BATCH LOADING</h2>
+<table class="table">
+    @foreach (var h2h in Model.Matches)
+    {
+        <tr>
+            <td>@h2h.Player1 - @h2h.Player2</td>
+            <td>@h2h.Won1 - @h2h.Won2</td>
+        </tr>
+    }
+</table>

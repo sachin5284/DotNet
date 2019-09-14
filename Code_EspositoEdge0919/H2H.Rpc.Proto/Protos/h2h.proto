@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package Tennis;
+
+// The H2H service definition
+service H2H {
+  rpc Details (H2HRequest) returns (H2HReply) {}
+  rpc DetailsDemo (H2HRequest) returns (H2HReply) {}
+  rpc MultiDetails (H2HMultiRequest) returns (stream H2HMultiReply) {}
+}
+
+// Send the code of the players
+message H2HRequest {
+  string Player1 = 1;
+  string Player2 = 2;
+}
+
+// Get the history of the played matches
+message H2HReply {
+	uint32 Won1 = 1;
+	uint32 Won2 = 2;
+	bool success = 3;
+}
+
+// Send the code of the players
+message H2HMultiRequest {
+	string Player = 1;
+	repeated string Opponent = 2;
+}
+
+// Get the history of the played matches
+message H2HMultiReply {
+	H2HItem Player1 = 1; 
+	H2HItem Player2 = 2; 
+}
+
+message H2HItem {
+	string Name = 1;
+	uint32 Won = 2;
+}
+

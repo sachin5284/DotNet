@@ -1,0 +1,12 @@
+/Users/sachinkumar/Personal/dotnet/Solution/Haulplan/bin/Debug/netcoreapp3.0/Haulplan
+/Users/sachinkumar/Personal/dotnet/Solution/Haulplan/bin/Debug/netcoreapp3.0/Haulplan.deps.json
+/Users/sachinkumar/Personal/dotnet/Solution/Haulplan/bin/Debug/netcoreapp3.0/Haulplan.runtimeconfig.json
+/Users/sachinkumar/Personal/dotnet/Solution/Haulplan/bin/Debug/netcoreapp3.0/Haulplan.runtimeconfig.dev.json
+/Users/sachinkumar/Personal/dotnet/Solution/Haulplan/bin/Debug/netcoreapp3.0/Haulplan.dll
+/Users/sachinkumar/Personal/dotnet/Solution/Haulplan/bin/Debug/netcoreapp3.0/Haulplan.pdb
+/Users/sachinkumar/Personal/dotnet/Solution/Haulplan/obj/Debug/netcoreapp3.0/Haulplan.csprojAssemblyReference.cache
+/Users/sachinkumar/Personal/dotnet/Solution/Haulplan/obj/Debug/netcoreapp3.0/Haulplan.csproj.CoreCompileInputs.cache
+/Users/sachinkumar/Personal/dotnet/Solution/Haulplan/obj/Debug/netcoreapp3.0/Haulplan.AssemblyInfoInputs.cache
+/Users/sachinkumar/Personal/dotnet/Solution/Haulplan/obj/Debug/netcoreapp3.0/Haulplan.AssemblyInfo.cs
+/Users/sachinkumar/Personal/dotnet/Solution/Haulplan/obj/Debug/netcoreapp3.0/Haulplan.dll
+/Users/sachinkumar/Personal/dotnet/Solution/Haulplan/obj/Debug/netcoreapp3.0/Haulplan.pdb

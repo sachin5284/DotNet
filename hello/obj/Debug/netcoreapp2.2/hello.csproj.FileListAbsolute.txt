@@ -1,0 +1,14 @@
+/Users/sachinkumar/Documents/dotnet/hello/bin/Debug/netcoreapp2.2/hello.deps.json
+/Users/sachinkumar/Documents/dotnet/hello/bin/Debug/netcoreapp2.2/hello.runtimeconfig.json
+/Users/sachinkumar/Documents/dotnet/hello/bin/Debug/netcoreapp2.2/hello.runtimeconfig.dev.json
+/Users/sachinkumar/Documents/dotnet/hello/bin/Debug/netcoreapp2.2/hello.dll
+/Users/sachinkumar/Documents/dotnet/hello/bin/Debug/netcoreapp2.2/hello.pdb
+/Users/sachinkumar/Documents/dotnet/hello/obj/Debug/netcoreapp2.2/hello.csprojAssemblyReference.cache
+/Users/sachinkumar/Documents/dotnet/hello/obj/Debug/netcoreapp2.2/hello.csproj.CoreCompileInputs.cache
+/Users/sachinkumar/Documents/dotnet/hello/obj/Debug/netcoreapp2.2/hello.RazorAssemblyInfo.cache
+/Users/sachinkumar/Documents/dotnet/hello/obj/Debug/netcoreapp2.2/hello.RazorAssemblyInfo.cs
+/Users/sachinkumar/Documents/dotnet/hello/obj/Debug/netcoreapp2.2/hello.AssemblyInfoInputs.cache
+/Users/sachinkumar/Documents/dotnet/hello/obj/Debug/netcoreapp2.2/hello.AssemblyInfo.cs
+/Users/sachinkumar/Documents/dotnet/hello/obj/Debug/netcoreapp2.2/hello.RazorTargetAssemblyInfo.cache
+/Users/sachinkumar/Documents/dotnet/hello/obj/Debug/netcoreapp2.2/hello.dll
+/Users/sachinkumar/Documents/dotnet/hello/obj/Debug/netcoreapp2.2/hello.pdb

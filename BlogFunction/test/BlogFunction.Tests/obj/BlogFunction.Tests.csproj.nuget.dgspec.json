@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sachinkumar/Personal/dotnet/BlogFunction/test/BlogFunction.Tests/BlogFunction.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/sachinkumar/Personal/dotnet/BlogFunction/src/BlogFunction/BlogFunction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sachinkumar/Personal/dotnet/BlogFunction/src/BlogFunction/BlogFunction.csproj",
+        "projectName": "BlogFunction",
+        "projectPath": "/Users/sachinkumar/Personal/dotnet/BlogFunction/src/BlogFunction/BlogFunction.csproj",
+        "packagesPath": "/Users/sachinkumar/.nuget/packages/",
+        "outputPath": "/Users/sachinkumar/Personal/dotnet/BlogFunction/src/BlogFunction/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sachinkumar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Amazon.Lambda.Serialization.Json": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/sachinkumar/Personal/dotnet/BlogFunction/test/BlogFunction.Tests/BlogFunction.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sachinkumar/Personal/dotnet/BlogFunction/test/BlogFunction.Tests/BlogFunction.Tests.csproj",
+        "projectName": "BlogFunction.Tests",
+        "projectPath": "/Users/sachinkumar/Personal/dotnet/BlogFunction/test/BlogFunction.Tests/BlogFunction.Tests.csproj",
+        "packagesPath": "/Users/sachinkumar/.nuget/packages/",
+        "outputPath": "/Users/sachinkumar/Personal/dotnet/BlogFunction/test/BlogFunction.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sachinkumar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/sachinkumar/Personal/dotnet/BlogFunction/src/BlogFunction/BlogFunction.csproj": {
+                "projectPath": "/Users/sachinkumar/Personal/dotnet/BlogFunction/src/BlogFunction/BlogFunction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Amazon.Lambda.TestUtilities": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.5.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
